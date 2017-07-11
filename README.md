@@ -20,7 +20,7 @@ This is a re-creation of the original Atari arcade classic.
 Download & Play
 ------
 
-To download and play the game please visit here.
+To download and play the game please visit [here](https://github.com/xenzll/Asteroids/releases/tag/1.0 "Download link").
 
 
 
@@ -40,6 +40,6 @@ Controls
 Copyright Notice
 ------
 
-The font used is courtesy of Pixel Saga's Shareware Fonts.
-Audio and game concept are property of Atari Inc.
+The font used is courtesy of Pixel Saga's Shareware Fonts. <br>
+Audio and game concept are property of Atari Inc.          <br>
 All other trademarks or registered trademarks are the property of their respective owners.
