@@ -1,0 +1,10 @@
+# ##########################################
+# Warning: Modifiying any values may result in game-breaking
+# and potentially game-crashing results. Always back-up original
+# configuration before editing.
+# ##########################################
+
+windowHeight			= 1000
+windowWidth			= 1900
+fullScreen				= 1
+framesPerSecond		= 60

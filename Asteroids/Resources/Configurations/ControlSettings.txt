@@ -1,0 +1,16 @@
+# ##########################################
+# Warning: Modifiying any values may result in game-breaking
+# and potentially game-crashing results. Always back-up original
+# configuration before editing.
+# ##########################################
+
+# Casing and spelling of keys is significant.
+# Incorrectly spelled keys will result in the game
+# un-able to load these settings.
+
+thrustKey 			= Up
+fireKey				= X
+rotateLeftKey 		= Left
+rotateRightKey 	= Right
+playGameKey		= Space
+exitGameKey		= Escape

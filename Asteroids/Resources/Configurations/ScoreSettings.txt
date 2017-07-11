@@ -1,0 +1,10 @@
+# ##########################################
+# Warning: Modifiying any values may result in game-breaking
+# and potentially game-crashing results. Always back-up original
+# configuration before editing.
+# ##########################################
+
+# Defines score values for each asteroid size
+smallAsteroid.score 		= 100
+mediumAsteroid.score 	= 500
+largeAsteroid.score 		= 1000

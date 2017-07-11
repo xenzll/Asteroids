@@ -1,0 +1,13 @@
+# ##########################################
+# Warning: Modifiying any values may result in game-breaking
+# and potentially game-crashing results. Always back-up original
+# configuration before editing.
+# ##########################################
+
+sideCount 				= 3
+velocityMagnitude 	= 400.0
+approximateRadius	= 4.0
+minAngularVelocity	= 0.0
+maxAngularVelocity	= 6.28318530718
+angularDampening	= 1.0
+velocityDampening	= 1.0

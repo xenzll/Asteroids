@@ -1,0 +1,11 @@
+# ##########################################
+# Warning: Modifiying any values may result in game-breaking
+# and potentially game-crashing results. Always back-up original
+# configuration before editing.
+# ##########################################
+
+angularDampening  	 = 0.003
+velocityDampening 	 = 0.35
+approximateRadius    = 30.0
+thrustMagnitude       = 250.0
+rotationVelocity		 = 200.0

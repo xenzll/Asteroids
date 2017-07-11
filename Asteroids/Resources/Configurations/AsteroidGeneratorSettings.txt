@@ -1,0 +1,37 @@
+# ##########################################
+# Warning: Modifiying any values may result in game-breaking
+# and potentially game-crashing results. Always back-up original
+# configuration before editing.
+# ##########################################
+
+
+# General properties for newly spawned asteroids.
+# Defines the ranges for which asteroids will spawn with.
+
+asteroid.minAngularDampening  	= 0.895
+asteroid.maxAngularDampening 	= 0.995
+
+asteroid.minAngularVelocity		= -360
+asteroid.maxAngularVelocity		= 360
+
+asteroid.minVelocity					= 70
+asteroid.maxVelocity					= 350
+
+asteroid.minVelocityDampening	= 0.888
+asteroid.maxVelocityDampening	= 0.999
+
+
+# Asteroid properties for each size.
+# Defines the ranges for which asteroids at a given size will spawn with.
+
+smallAsteroid.minRadius			= 35
+smallAsteroid.maxRadius		= 50
+smallAsteroid.vertexCount		= 8
+
+mediumAsteroid.minRadius		= 80
+mediumAsteroid.maxRadius		= 100
+mediumAsteroid.vertexCount	= 25
+
+largeAsteroid.minRadius			= 165
+largeAsteroid.maxRadius		= 180
+largeAsteroid.vertexCount		= 40
