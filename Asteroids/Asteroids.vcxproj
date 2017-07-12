@@ -84,7 +84,7 @@
       <SubSystem>Windows</SubSystem>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /d "$(ProjectDir)Dependencies\SFML-2.4.2\bin\OpenAl32.dll" "$(TargetDir)"
+      <Command>xcopy /y /d "$(SolutionDir)Dependencies\SFML-2.4.2\bin\OpenAl32.dll" "$(TargetDir)"
 xcopy /y /d /e /i "$(ProjectDir)Resources" "$(TargetDir)Resources"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -113,7 +113,7 @@ xcopy /y /d /e /i "$(ProjectDir)Resources" "$(TargetDir)Resources"</Command>
       <SubSystem>Windows</SubSystem>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /d "$(ProjectDir)Dependencies\SFML-2.4.2\bin\OpenAl32.dll" "$(TargetDir)"
+      <Command>xcopy /y /d "$(SolutionDir)Dependencies\SFML-2.4.2\bin\OpenAl32.dll" "$(TargetDir)"
 xcopy /y /d /e /i "$(ProjectDir)Resources" "$(TargetDir)Resources"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
