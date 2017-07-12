@@ -37,21 +37,21 @@ float Polygon::GetApproximateRadius() const
 
 bool Polygon::CheckCollision(const Polygon& other)
 {
-	// https://stackoverflow.com/questions/8367512/
-	//
-	//                 This will be referred to as z
-	//                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
-	// (R0 - R1) ^ 2 <= (x0 - x1) ^ 2 + (y0 - y1) ^ 2 <= (R0 + R1) ^ 2
-
-	float radiusDifference	= approximateRadius - other.GetApproximateRadius();
-	float radiusSum			= approximateRadius + other.GetApproximateRadius();
-	float xDifference		= getPosition().x - other.getPosition().x;
-	float yDifference		= getPosition().y - other.getPosition().y;
-	float z					= pow(xDifference, 2.f) + pow(yDifference, 2.f);
-
-	bool colliding = (pow(radiusDifference, 2.f) <= z) && (pow(radiusSum, 2.f) >= z);
-
-	return colliding;
+	auto positionDifference = other.getPosition() - getPosition();
+	float distanceToPolygon = Trigonometry::GetVectorMagnitude(positionDifference);
+	float radiiSum			= approximateRadius + other.GetApproximateRadius();
+	
+	// If the distance between two circle's centers 
+	// is less than the sum of their radii, then
+	// they must be colliding.
+	if (distanceToPolygon <= radiiSum)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 
 sf::Vector2f Polygon::GetWorldVertexPosition(size_t vertexIndex) const
