@@ -20,10 +20,10 @@ This is a re-creation of the original Atari arcade classic.
 Download & Play
 ------
 
-1. Visit the [releases page](https://github.com/xenzll/Asteroids/releases "Download link").
-2. Download "Asteroids.zip".
-3. Extract the contents of "Asteroids.zip".
-4. Run "Asteroids.exe"
+1. Visit the [releases page](https://github.com/xenzll/Asteroids/releases "Download link")
+2. Download Asteroids.zip
+3. Extract the contents of Asteroids.zip to desired location
+4. Run Asteroids.exe
 
 
 
