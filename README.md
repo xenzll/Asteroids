@@ -20,7 +20,7 @@ This is a re-creation of the original Atari arcade classic.
 Download & Play
 ------
 
-To download and play the game please visit [here](https://github.com/xenzll/Asteroids/releases/tag/1.0 "Download link").
+To download and play the game please visit [here](https://github.com/xenzll/Asteroids/releases "Download link").
 
 
 
